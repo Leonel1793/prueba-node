@@ -22,6 +22,7 @@ const concesionaria = {
           if (autosBuscados==undefined){
                 return "No hay autos disponibles para vender";
           }else{
+                console.log("hha");
           autosBuscados.vendido=true;
           return autosBuscados;
           }
